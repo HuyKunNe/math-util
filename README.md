@@ -8,7 +8,7 @@ You will find the most of popular math methods such as: sqrt(), getFactorial() i
 * README.md file - this file itself to show this repo's homepage
 * ...
 ### Connect me via:
-[Facebook] (htpps://facebook.com/huykun1512)
-[Email] (mailto:dinhquanghuydt@gmail.com)
+[Facebook](htpps://facebook.com/huykun1512)
+[Email](mailto:dinhquanghuydt@gmail.com)
 
 #### © 2020 by Huy Kun Ne | FPT University, HCMC
