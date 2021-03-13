@@ -1,24 +1,4 @@
-name: Build
-on:
-  push:
-    branches:
-      - master
-  pull_request:
-    types: [opened, synchronize, reopened]
-jobs:
-  sonarcloud:
-    name: SonarCloud
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
-      - name: SonarCloud Scan
-        uses: SonarSource/sonarcloud-github-action@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-name: Practice CI with GitHub Actions using Ant and JUnit | © 2020 by ttson1001
+name: Practice CI with GitHub Actions using Ant and JUnit | © 2020 by HuyKunNe
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the main branch
